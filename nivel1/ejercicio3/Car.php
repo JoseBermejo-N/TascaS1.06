@@ -14,7 +14,7 @@ class Car {
         $this->price = $price;
     }
 
-    //sobrescritura del método mágico __toString
+    
     public function __toString() {
         return "*** FICHA TECNICA DEL VEHÍCULO EN VENTA ***\n" .
                "Marca: " . $this->brand . "\n" .

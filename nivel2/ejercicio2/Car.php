@@ -9,7 +9,6 @@ class Car {
     private string $fuelType;
     private int $maxSpeed;
 
-    //usamos el trait
     use Turbo;
 
     
@@ -24,7 +23,6 @@ class Car {
     public function accelerate(): void {
         echo "El coche con matrícula {$this->licensePlate} està acelerando...\n";
         
-        //llamamos al metodo incluido en el Trait.
         $this->boost(); 
         
         echo "Velocidad máxima de {$this->maxSpeed} km/h alcanzada!\n";
