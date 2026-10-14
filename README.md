@@ -36,7 +36,7 @@ Due to the use of sessions and forms in **Nivell 1 (Exercici 1)**, this project 
 2. **Start the local server:** Open the XAMPP Control Panel and start the **Apache** module.
 3. **Run the files in your browser:** 
    Open your preferred web browser and navigate to the project URL:
-   `http://localhost/XAMPP/htdocs/tascaS1.06/nivel1/ejercicio1/index.php`
+   `http://localhost/XAMPP/htdocs/tascaS1.06/nivel1/ejercicio1/formulario.html`
    From there, you can browse through the folders and test each exercise interactively.
 
 
